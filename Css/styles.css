@@ -168,7 +168,7 @@ h1,h2,h3 {
 /*Servicios*/
 @media (min-width: 768px) {
     .servicios {
-        background-image: url(../Img/obra1.jpg);
+        /* background-image: url(../Img/obra1.jpg); */
         background-repeat: no-repeat;
         display: grid;
         
@@ -189,6 +189,7 @@ h1,h2,h3 {
 }
 .servicio p {
     line-height: 2;
+    text-align: center;
 }
 /* .servicio .iconos {
     height: 15rem;
