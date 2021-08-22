@@ -103,6 +103,21 @@ h1,h2,h3 {
     justify-content: flex-end;
 }
 /* Navegación principal*/
+nav.redes-sociales {
+    text-align: center;
+
+}
+nav.redes-sociales a {
+    color: var(--blanco);
+    font-size: 2em;
+    margin-right: 20px;
+}
+nav.redes-sociales a:last-child {
+    margin-right: 0;
+}
+/* div.nav- {
+    display: inline;
+} */
 
 .nav-bg {
     background-color: var(--secundario);
