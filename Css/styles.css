@@ -18,7 +18,10 @@ html {
 /*Scroll Snap*/
 .servicios,
 .navegacion-principal,
-.formulario {
+.bx-wrapper, 
+.mensaje,
+.slider,
+.footer {
     scroll-snap-align: center;
     scroll-snap-stop: always; 
 }
@@ -195,6 +198,14 @@ h1,h2,h3 {
     line-height: 2;
     text-align: center;
     text-align
+}
+.bx-wrapper, 
+.bx-viewport {
+    height: 250px !important;
+}
+.slider,
+.galeria {
+   background-image: center;
 }
 /* .servicio .iconos {
     height: 15rem;
